@@ -13,7 +13,7 @@ export class AppComponent {
 
     destroyMoon(): void {
         // window.alert("You destroyed the Moon! You monster...");
-        this.moonDestroyed = false;
+        this.moonDestroyed = true;
       }
 
 }
