@@ -9,8 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+    moonDestroyed: false;
+
     destroyMoon(): void {
-        window.alert("You destroyed the Moon! You monster...");
+        // window.alert("You destroyed the Moon! You monster...");
+        this.moonDestroyed = false;
       }
 
 }
