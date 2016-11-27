@@ -1,3 +1,5 @@
 /node_modules/
+angular-tour-of-heroes/node_modules/
 *.map
 *.log
+*.js
